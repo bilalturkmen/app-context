@@ -18,7 +18,7 @@ function PostProvider({ children }) {
     Array.from({ length: 6 }, () => createRandomPost()),
   );
   const [searchQuery, setSearchQuery] = useState("");
-  const [isFakeDark, setIsFakeDark] = useState(false);
+  const [isFakeDark, setIsFakeDark] = useState(true);
 
   // Derived state. These are the posts that will actually be displayed
   const searchedPosts =
@@ -32,8 +32,6 @@ function PostProvider({ children }) {
 
   function handleAddPost(post) {
     setPosts((posts) => [post, ...posts]);
-    // setIsAddedPost(true);
-    // setTimeout(() => setIsAddedPost(false), 2000); // Hide popup after 2 seconds
   }
 
   function handleClearPosts() {
