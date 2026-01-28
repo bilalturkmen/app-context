@@ -5,7 +5,11 @@ export function ModeButton() {
   const { isFakeDark, setIsFakeDark } = usePosts();
   useEffect(
     function () {
-      document.documentElement.classList.toggle("fake-dark-mode");
+      if (isFakeDark) {
+        document.documentElement.classList.add("fake-dark-mode");
+      } else {
+        document.documentElement.classList.remove("fake-dark-mode");
+      }
     },
     [isFakeDark],
   );
