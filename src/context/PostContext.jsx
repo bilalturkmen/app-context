@@ -18,7 +18,7 @@ function PostProvider({ children }) {
     Array.from({ length: 6 }, () => createRandomPost()),
   );
   const [searchQuery, setSearchQuery] = useState("");
-  const [isFakeDark, setIsFakeDark] = useState(true);
+  const [isFakeDark, setIsFakeDark] = useState(false);
 
   // Derived state. These are the posts that will actually be displayed
   const searchedPosts =
