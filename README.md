@@ -1,6 +1,6 @@
 <h1>AppContext</h1>
 
-https://eatnsplitx.netlify.app/
+https://app-contextt.netlify.app/
 
 <div>
   This is a practice project in React that uses the "useContext" hook to solve the prop drilling problem and learn about global state management. 
