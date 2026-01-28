@@ -8,9 +8,10 @@ export function AddButton() {
     <button
       type="button"
       onClick={openAddPostModal}
-      className="min-w-fit px-3 py-2 bg-gray-100 flex items-center gap-2 rounded-full hover:bg-gray-200 cursor-pointer "
+      className="min-w-fit px-3 md:py-2 py-3 border border-gray-300 flex items-center gap-2 rounded-full hover:bg-gray-100 cursor-pointer "
     >
-      <PencilSVG /> Add Post
+      <PencilSVG />
+      <span className="hidden md:inline">Add Post</span>
     </button>
   );
 }

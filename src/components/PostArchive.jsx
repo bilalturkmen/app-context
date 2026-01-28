@@ -24,17 +24,17 @@ function PostArchive() {
   };
 
   return (
-    <div className="bg-stone-50/40 border-t border-stone-200">
+    <div className="bg-stone-50/40 border-t border-gray-100">
       <div className="container p-6">
-        <h2 className="sm:text-2xl text-3xl font-medium title-font mb-2 text-gray-900">
+        <h2 className="sm:text-2xl text-3xl font-medium title-font">
           Post archive
         </h2>
 
         <button
           onClick={toggleArchiveVisibility}
-          className="my-6 border rounded-lg p-3 border-indigo-400"
+          className="my-5 border rounded-full px-3 py-2 border-indigo-300 hover:bg-gray-100"
         >
-          <span className="flex items-center cursor-pointer  text-indigo-500 ">
+          <span className="flex items-center cursor-pointer text-indigo-400 ">
             {showArchive ? "Hide archive posts" : "Show archive posts"}
             <svg
               className={`w-4 h-4 ml-2 ${showArchive ? "rotate-180" : ""}`}

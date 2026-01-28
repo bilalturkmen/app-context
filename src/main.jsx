@@ -1,13 +1,16 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { PostProvider } from "./context/PostContext";
+import { ModalProvider } from "./context/ModalContext";
 import "./index.css";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <PostProvider>
-      <App />
+      <ModalProvider>
+        <App />
+      </ModalProvider>
     </PostProvider>
   </StrictMode>,
 );

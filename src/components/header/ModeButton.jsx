@@ -3,6 +3,7 @@ import { usePosts } from "../../hooks/usePosts";
 
 export function ModeButton() {
   const { isFakeDark, setIsFakeDark } = usePosts();
+
   useEffect(
     function () {
       if (isFakeDark) {
@@ -19,7 +20,7 @@ export function ModeButton() {
       <button
         type="button"
         onClick={() => setIsFakeDark((prev) => !prev)}
-        className="font-medium rounded-full hover:bg-gray-200 cursor-pointer "
+        className="font-medium rounded-full hover:bg-gray-200 cursor-pointer border-gray-300 border "
       >
         {isFakeDark ? (
           <span className="inline-flex shrink-0 justify-center items-center size-9">

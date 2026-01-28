@@ -22,7 +22,7 @@ function HeroSection() {
                   className="w-full h-20 rounded-lg object-cover object-center"
                 />
 
-                <h2 className="text-lg text-gray-900 font-medium title-font capitalize my-3">
+                <h2 className="text-lg font-medium title-font capitalize my-3">
                   {post.title}
                 </h2>
                 <p className="leading-relaxed text-base">{post.body}</p>
