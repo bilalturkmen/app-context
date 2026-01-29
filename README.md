@@ -13,7 +13,7 @@ https://app-contextt.netlify.app/
 - Improving many aspects of front-end design 🤗
 - Special effort was made for responsive design.
 
-![](./public/screeenshot.png)
+![](./public/screenshot.png)
 
 ## 🎉 Build With:
 
