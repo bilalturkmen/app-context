@@ -20,7 +20,7 @@ export function ModeButton() {
       <button
         type="button"
         onClick={() => setIsFakeDark((prev) => !prev)}
-        className="font-medium rounded-full hover:bg-gray-200 cursor-pointer border-gray-300 border "
+        className="font-medium rounded-full hover:bg-gray-200 cursor-pointer border-gray-300 border text-gray-500 "
       >
         {isFakeDark ? (
           <span className="inline-flex shrink-0 justify-center items-center size-9">

@@ -26,7 +26,7 @@ function PostArchive() {
   return (
     <div className="bg-stone-50/40 border-t border-gray-100">
       <div className="container p-6">
-        <h2 className="sm:text-2xl text-3xl font-medium title-font">
+        <h2 className="sm:text-2xl text-3xl font-medium title-font text-gray-700">
           Post archive
         </h2>
 
