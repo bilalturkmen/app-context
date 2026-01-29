@@ -3,7 +3,7 @@
 https://app-contextt.netlify.app/
 
 <div>
-  a training project for useContext hook to solve the prop drilling problem and learn about global state management.
+  Training project on useContext hook to solve the prop drilling problem and learn about global state management.
 </div>
 
 ## 👍 My Challenges:
