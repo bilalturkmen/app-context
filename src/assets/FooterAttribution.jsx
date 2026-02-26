@@ -1,8 +1,8 @@
 const FooterAttribution = () => {
   return (
     <div className="w-full text-center text-sm text-gray-400 py-3">
-      Training project on useContext hook to solve the prop drilling problem -
-      Coded by{" "}
+      A training project showcasing useContext hook to solve the prop drilling
+      problem - Coded by{" "}
       <a
         className="underline"
         href="https://bilalturkmen.com"
