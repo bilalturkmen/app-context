@@ -2,7 +2,7 @@
 
 https://app-contextt.netlify.app/
 
-A training project showcasing `useContext` to efficiently solve `prop drilling` in a React component tree.
+A demo blog project showcasing `useContext` to efficiently solve `prop drilling` in a React component tree.
 
 ## 👍 My Challenges:
 
